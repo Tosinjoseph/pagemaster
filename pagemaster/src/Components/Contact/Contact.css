@@ -1,0 +1,44 @@
+.contact{
+    margin-top: 60px;
+    background: #3457D5 ;
+    padding: 80px 40px;
+}
+.contact h3{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 5px;
+}
+.contact h1{
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 30px 40px;
+
+}
+.contact-btn{
+    background: red;
+    color: white;
+}
+.contact-submit{
+display: inline-block;
+margin: 4px 630px;
+}
+.contact-submit input{
+    height: 28px;
+    border: none;
+    margin-right: 6px;
+    width: 200px;
+    border-radius: 3px;
+    padding-left: 4px;
+}
+.contact-submit input input{
+    padding-left: 20px;
+}
+.contact-submit input::placeholder{
+    letter-spacing: 2px;
+    margin-left: 6px;
+}

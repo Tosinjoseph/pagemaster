@@ -1,0 +1,61 @@
+.pricing{
+    margin-top: 30px;
+}
+
+.head-first{
+text-align: center;
+font-family: "Outfit";
+line-height: 1.4;
+font-size: 22px;
+
+}
+.pricingbox{
+    display: flex;
+    margin: 60px 350px;
+}
+.pricingbox1{
+ width: 200px;
+  height: 260px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  border-radius: 10px;
+  flex-basis: 25%;
+  margin-left: 40px;
+  outline: none;
+}
+.pricingbox1 img{
+    width: 70px;
+    margin: 20px 40px;
+}
+.pricingbox1 h3{
+    text-align: center;
+    font-weight:500;
+    font-size: 17px;
+}
+.pricingbox1 p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 10px 10px;
+}
+.bttn{
+    background: #3457D5;
+    border: none;
+    height: 30px;
+    margin: 25px 10px;
+    border-radius: 3px;
+    padding: 2px 2px;
+    width: 150px;
+    color: white;
+    cursor: pointer;
+    margin-top: 35px;
+}
+.pos2{
+    margin-top: 50px;
+}
+.pos3{
+    margin-top: 90px;
+}
+
+

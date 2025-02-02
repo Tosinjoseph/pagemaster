@@ -1,0 +1,84 @@
+.underline{
+    display: block;
+    width: 400px;
+    height: 2px;
+    background: grey;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 34%;
+
+}
+.question{
+    
+    align-items: center;
+    text-align: left;
+    display: flex;
+    margin-left: 34%;
+    justify-content: space-between;
+    max-width: 400px;
+    padding-top: 2%;
+    
+
+}
+.faqs-btn{
+    text-align: center;
+    margin: 40px 580px
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-1{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+
+    position: absolute;
+    left: 70%;
+    transform: translateX(-50%);
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    min-width: 450px;
+    min-height: 120px;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 1;
+    cursor: pointer;
+}
+.dropdown-content-1 {
+
+    position: absolute;
+    left: 70%;
+    transform: translateX(-50%);
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    min-width: 450px;
+    min-height: 120px;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 1;
+    cursor: pointer;
+
+}
+.dropdown-content-hide {
+    display: none;
+    position: absolute;
+    left: 70%;
+    transform: translateX(-50%);
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    min-width: 450px;
+    min-height: 120px;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 1;
+    
+}
+.dropdown img{
+cursor: pointer;
+}
