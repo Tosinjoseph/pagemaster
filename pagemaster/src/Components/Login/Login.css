@@ -41,6 +41,7 @@ form label{
 .form-btn{
     background: red;
     margin-top: 20px;
+    margin-left: 35px;
 }
 .form-back img{
     background: white;
@@ -53,4 +54,22 @@ form label{
 ::placeholder{
     margin-left: 10px;
     font-size: 18px;
+}
+.two-button{
+    display: flex;
+
+}
+form h2{
+    margin-left: 120px;
+    margin-bottom: 10px;
+    color: red;
+}
+form a{
+text-decoration: none;
+font-size: 15px;
+color: white;
+}
+.grey-btn{
+    background: white;
+    color: black;
 }
