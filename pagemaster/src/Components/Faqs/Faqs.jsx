@@ -28,8 +28,7 @@ const Faqs = () => {
     <div className="underline"></div>
     <div className="question">
       <p>Is there a mobile App?</p>
-      
-      <img src={icon_arrow} alt=''/>
+       <img src={icon_arrow} alt=''/>
     </div>
     <div className="underline"></div>
     <div className="question">
@@ -42,7 +41,7 @@ const Faqs = () => {
       </div>
     </div>
     <div className="underline"></div>
-    <button className='btn1 faqs-btn' type='submit'>More info</button>
+    <button className='faqs-btn' type='submit'>More info</button>
   </div>
 )
 }

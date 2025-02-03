@@ -11,25 +11,30 @@ font-size: 22px;
 }
 .pricingbox{
     display: flex;
-    margin: 60px 350px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 .pricingbox1{
- width: 200px;
+ width: 100px;
   height: 260px;
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.1); 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
   border-radius: 10px;
-  flex-basis: 25%;
+  flex-basis: 17%;
   margin-left: 40px;
   outline: none;
+  padding: auto;
+  position: relative;
 }
 .pricingbox1 img{
-    width: 70px;
+    width: 60px;
     margin: 20px 40px;
 }
 .pricingbox1 h3{
     text-align: center;
+    margin: auto;
     font-weight:500;
     font-size: 17px;
 }
@@ -46,10 +51,11 @@ font-size: 22px;
     margin: 25px 10px;
     border-radius: 3px;
     padding: 2px 2px;
-    width: 150px;
+    width: 140px;
     color: white;
     cursor: pointer;
     margin-top: 35px;
+    position: absolute;
 }
 .pos2{
     margin-top: 50px;
@@ -59,3 +65,29 @@ font-size: 22px;
 }
 
 
+@media screen and (max-width: 1200px) {
+    .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    }
+
+    @media screen and (max-width: 950px) {
+        
+        .pricingbox{
+                display: block;
+                align-items: center;
+                justify-content: center;
+                padding: auto;
+        }
+        .pricingbox1{
+            margin: auto;
+            width: 160px;
+            margin-top: 20px;
+
+        }
+        
+        }
+        
+        

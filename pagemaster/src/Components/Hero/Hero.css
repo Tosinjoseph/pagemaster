@@ -67,4 +67,32 @@
     position: absolute;
     top: 430px;
     border-radius: 80px 0px 0px 80px;
+    
 }
+
+
+/*Media query*/
+
+@media screen and(max-width: 1200px){
+    .container{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+   
+    
+}
+@media screen and(max-width: 1000px){
+    .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .heroright img{
+        width: 300px;
+        display: none;
+    }
+    .sidecolor{
+        display: none;
+    }
+    
+}
+    

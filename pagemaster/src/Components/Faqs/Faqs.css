@@ -3,10 +3,10 @@
     width: 400px;
     height: 2px;
     background: grey;
-    margin-top: 40px;
+    margin-top: 60px;
     justify-content: center;
     align-items: center;
-    margin-left: 34%;
+    margin:27px auto;
 
 }
 .question{
@@ -14,7 +14,7 @@
     align-items: center;
     text-align: left;
     display: flex;
-    margin-left: 34%;
+    margin:auto;
     justify-content: space-between;
     max-width: 400px;
     padding-top: 2%;
@@ -22,8 +22,16 @@
 
 }
 .faqs-btn{
-    text-align: center;
-    margin: 40px 580px
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    display: flex;
+    width: 100px;
+    height: 30px;
+    background: #3457D5  ;
+    border: none;
+    border-radius: 2px;
+    
 }
 .dropdown{
     position: relative;
@@ -81,4 +89,32 @@
 }
 .dropdown img{
 cursor: pointer;
+}
+
+
+
+/*Media query*/
+
+@media screen and(max-width: 1000px) {
+    .faqs{
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    }
+    .question{
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   max-width: 100%;
+    }
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .question p{
+        margin-top: 30px;
+    }
+    .head-first{
+        margin-bottom: 40px;
+    }
 }

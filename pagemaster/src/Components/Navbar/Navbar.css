@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 .navbar{
 display: flex;
-max-width: 100%;
+max-width: 90%;
 font-family: outfit, sans-serif;
 justify-content: space-between;
 align-items: center;
@@ -28,7 +28,7 @@ z-index: 100;
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    margin-left: 800px;
+    margin-left: auto;
     
 }
 .navmenu ul li{
@@ -56,4 +56,86 @@ z-index: 100;
 .login:hover{
     background: #fff;
     border: 1px solid  #3457D5;
+}
+.menu-icon{
+    display: none;
+}
+
+
+
+/*Media query*/
+
+@media screen and (max-width: 1500px){
+.container{
+padding-left: 10%;
+padding-right: 10%;
+
+}
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+}
+.navlogo{
+    max-width: 400px;
+}
+.navmenu ul{
+    gap: 30px;
+    
+    
+}
+
+}
+
+
+@media screen and (max-width: 800px){
+    .container{
+    padding-left: 3%;
+    padding-right: 3%;
+    
+    }
+    .navmenu ul{
+        gap: 25px;
+}
+.navlogo img{
+    width: 150px;
+    margin-right: 10px;
+}
+}
+
+@media screen and (max-width: 600px){
+    .navmenu ul{
+        background: #3457D5 ;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        position: fixed;
+        margin-left: 50px;
+        width: 150px;
+        display: block;
+        z-index: -1;
+        padding-top: 40px;
+        transition: 0.3s;
+
+        
+    }
+    .navmenu ul li{
+        padding: 20px 30px;
+        color: #fff;
+    }
+    .container{
+        padding: none;
+    }
+    .menu-icon{
+        position: absolute;
+        right: -30px;
+        display: block;
+        cursor: pointer;
+        z-index: 1000;
+        margin-bottom: 20px;
+        
+        
+    }
+    .navmenu ul.hide-menu {
+        right: -150px;
+    }
 }

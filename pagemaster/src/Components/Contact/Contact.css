@@ -24,8 +24,10 @@
     color: white;
 }
 .contact-submit{
-display: inline-block;
-margin: 4px 630px;
+display: flex;
+padding: 4px auto;
+justify-content: center;
+align-items: center;
 }
 .contact-submit input{
     height: 28px;
@@ -36,7 +38,7 @@ margin: 4px 630px;
     padding-left: 4px;
 }
 .contact-submit input input{
-    padding-left: 20px;
+    padding-left: 2
 }
 .contact-submit input::placeholder{
     letter-spacing: 2px;
